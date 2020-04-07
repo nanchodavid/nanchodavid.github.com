@@ -2,65 +2,63 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Desarrollo Web
-    Frontend">
+    <meta name="viewport" content="width:device-width,initial-scale=1.0">
+    <meta name="description" content="Hoja de vida Hernán David Alba">
     <title>CV de Hernán David Alba</title>
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One|Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./font-awesome/css/all.css">
+    <link rel="stylesheet" href="./flexbox-grid/dist/flexboxgrid.css">
   </head>
-  <body style="font-family: Helvetica, Arial, sans-serif;margin:0">
-    <header style="text-align:center;">
-      <h1 style="display:inline-block;width:500px;">Hernán Andrés David Alba</h1>
-      <p style="display:inline-block;width:400px;">Ingeniero de Sistemas</p>
-    </header>
-
-    <div style="text-align:center;">
-      Profesional con conocimientos de HTML, JavaScript y Programación en Java y C#.
-    </div>
-
-    <section>
-      <div style="width:960px;height:200px;margin-right:auto;margin-left:auto;margin-top:40px;">
-        <div>
-          <div style="display:inline-block;width:68%;vertical-align:top">
-            <h3 style="font-size:30px;">Información Académica</h3>
-            <h4 style="font-size:20px;">Estudios Universitarios</h4>
-            <div>
-              <dl>
-                <dt style="font-size:18px;">Ingenieria de Software</dt>
-                <dd>2013-2019. Universidad de Córdoba</dd>
-              </dl>
-            </div>
+  <body>
+    <div class="banner">
+      <div class="content-banner text-center">
+        <header class="header">
+          <div class="profile">
+            <img src="./assets/img/perfil.jpg" alt="">
           </div>
-
-          <div style="display:inline-block;width:30%;">
-            <img src="./img/foto.jpg" width="200px;">
+          <div class="title">
+            <h1 class="text-title">Hernán Andrés David Alba</h1>
+            <span class="text-profession">Ingeniero de Sistemas</span>
           </div>
-
+        </header>
+        <div class="social-account">
+          <ul>
+            <li class="link-account"><a href=""><i class="fab fa-github"></i></a></li>
+            <li class="link-account"><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li class="link-account"><a href=""><i class="fab fa-facebook"></i></a></li>
+          </ul>
         </div>
-
-        <div>
-          <div>
-            <h4 style="font-size:20px;">Otros Estudios</h4>
-            <div>
-              <dl>
-                <dt style="font-size:18px;">Desarrollo Web con PHP</dt>
-                <dd>2019. Servicio Nacional de Aprendizaje (SENA)</dd>
-                <dt style="font-size:18px;">Tecnico en Sistemas</dt>
-                <dd>2012. Servicio Nacional de Aprendizaje (SENA)</dd>
-              </dl>
-            </div>
-          </div>
-
-          <div>
-            <h4 style="font-size:25px;">Social Accounts</h4>
-            <ul>
-              <li><a href="#" target="_blank">Linkedin</a></li>
-              <li><a href="#" target="_blank">GitHub</a></li>
-              <li><a href="#" target="_blank">Facebook</a></li>
-              <li><a href="#" target="_blank">Twitter</a></li>
-            </ul>
-          </div>
+        <div class="icon-down text-center">
+          <span class="chevron-down"><i class="fas fa-chevron-down"></i></span>
         </div>
-
       </div>
-    </section>
+    </div>
+    <div class="container">
+      <section class="section">
+        <div class="about text-center">
+          <h2 class="title-second-dark">Acerca de mí</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+             qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+      <section class="section bg-dark">
+        <div class="skills">
+          <div class="title-second-light">
+
+          </div>
+        </div>
+      </section>
+      <section class="section">
+
+      </section>
+    </div>
   </body>
 </html>
