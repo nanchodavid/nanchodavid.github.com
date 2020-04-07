@@ -79,7 +79,8 @@ body::-webkit-scrollbar-thumb{
   height: 50vh;
 }
 .about{
-  width: 60%;
+  width: 80%;
+  height: 100%;
   margin: auto;
 }
 .about p{
