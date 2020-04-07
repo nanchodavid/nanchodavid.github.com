@@ -82,6 +82,9 @@ body::-webkit-scrollbar-thumb{
   width: 60%;
   margin: auto;
 }
+.about p{
+  font-size: 18px;
+}
 .title-second-light{
   margin: 0;
   padding: 40px 0px;
