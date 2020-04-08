@@ -36,11 +36,14 @@ body::-webkit-scrollbar-thumb{
   font-size: 46px;
   margin-bottom: 0;
   color: white;
+  text-shadow: 1px 1px 1px black;
 }
 .text-profession{
   font-family: 'Nixie One', cursive;
   font-size: 25px;
   color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
 }
 .text-center{
   text-align: center;
