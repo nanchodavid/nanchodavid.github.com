@@ -77,29 +77,47 @@ body::-webkit-scrollbar-thumb{
 
 .section{
   height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about{
+.section-content{
   width: 80%;
-  height: 100%;
   margin: auto;
 }
-.about p{
+.p-about{
   font-size: 18px;
 }
-.title-second-light{
-  margin: 0;
+.title-second{
+  width: 80%;
+  margin: auto;
   padding: 40px 0px;
   font-family: 'Nixie One', cursive;
   font-size: 45px;
+}
+.title-light{
   color: white;
 }
-.title-second-dark{
-  margin: 0;
-  padding: 40px 0px;
-  font-family: 'Nixie One', cursive;
-  font-size: 45px;
+.title-dark{
+  color: black;
 }
-.skills{
-  width: 60%;
-  margin: auto;
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  .section{
+    height: 65vh;
+  }
 }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
