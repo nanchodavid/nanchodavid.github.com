@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb{
 
 
 /* Small devices (landscape phones, 400px down)*/
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .section{
     height: 90vh;
   }
