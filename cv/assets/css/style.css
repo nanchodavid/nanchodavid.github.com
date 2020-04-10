@@ -119,6 +119,7 @@ body::-webkit-scrollbar-thumb{
     width: 200px;
   }
   .text-title{
+    width: 300px;
     font-size: 40px;
   }
   .text-profession{
